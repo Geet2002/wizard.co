@@ -1,0 +1,230 @@
+@font-face {
+    font-family: china;
+    src: url(./3856NeueMachina.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+section{
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+}
+
+nav h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+nav button{
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1.3px solid black;
+    background-color: #fff;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.center{
+    padding: 40px 70px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 44%;
+}
+
+.center-part1 h1{
+    line-height: 1.1.2;
+    font-size: 60px;
+    font-family: china;
+}
+
+.center-part1 p{
+    font-size: 18px;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.center-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img{
+    height: 70vh;
+    position: absolute;
+    right: 0;
+}
+
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 75px;
+}
+
+.section1bottom img{
+    height: 30px;
+}
+
+.section2 .services{
+    padding: 40px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.services h3{
+    font-family: china;
+    background-color: #9AE975;
+    font-size: 42px;
+    font-weight: 600;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+
+.services p{
+    font-size: 17px;
+    width: 40%;
+}
+
+.container{
+    min-height: 83vh;
+    width: 100%;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 38vh;
+    width: 48%;
+    border: 2.5px solid black;
+    border-radius: 40px;
+    padding: 50px;
+    font-weight: 100;
+    box-shadow: 0px 7px 0px black;
+    display: flex;
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem-part2 img{
+    height: 100%;
+}
+
+.elem-part1 h2{
+    font-family: china;
+    font-size: 25px;
+    padding: 0px 3px;
+    width: 80%;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: #9AE975;
+}
+
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.elem-part1 h4 i{
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.black .elem-part1 h2{
+    background-color: #fff;
+    color: #000;
+}
+
+.black .elem-part1 i{
+    background-color: white;
+    color: #000;
+}
